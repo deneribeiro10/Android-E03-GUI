@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 
         btn_splash.setText("splash-screen");
         btn_not.setText("noticia");
-        btn_tempo.setText("previsão-do-tempo");
+        btn_tempo.setText("previsão do tempo");
         btn_form.setText("formulario");
 
         btn_splash.setOnClickListener(new View.OnClickListener() {

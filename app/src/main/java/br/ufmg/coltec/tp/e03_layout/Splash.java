@@ -15,13 +15,5 @@ public class Splash extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-
-
-    }
-
-    void starting() {
-        TextView nome = findViewById(R.id.nome);
-        TextView autor = findViewById(R.id.autor);
     }
 }
