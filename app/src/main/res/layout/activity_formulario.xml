@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Nome:"
+        android:text="@string/name"
         android:textSize="20sp"
         />
     <EditText
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="Avalie este aplicativo"
+        android:text="@string/rate"
         android:textSize="20sp"
         />
     <RatingBar
@@ -66,15 +66,16 @@
         android:minLines="5"
         android:scrollHorizontally="false"
         android:scrollbars="vertical"
-        android:hint="Deixe seu comentario aqui"
+        android:hint="@string/comment"
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:layout_margin="10dp"
-        android:text="Enviar"
+        android:text="@string/submit"
         />
 
 </LinearLayout>

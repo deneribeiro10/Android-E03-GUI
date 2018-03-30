@@ -18,11 +18,6 @@ public class MainActivity extends Activity {
         Button btn_tempo = findViewById(R.id.tempo);
         Button btn_form = findViewById(R.id.formulario);
 
-        btn_splash.setText("splash-screen");
-        btn_not.setText("noticia");
-        btn_tempo.setText("previsão do tempo");
-        btn_form.setText("formulario");
-
         btn_splash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
