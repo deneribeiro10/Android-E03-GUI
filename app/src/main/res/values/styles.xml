@@ -1,8 +1,45 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="place_photo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="item_wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="place_name" parent="item_wrap_content">
+        <item name="android:layout_toRightOf">@id/img_place_photo</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="place_description" parent="item_wrap_content">
+        <item name="android:layout_alignLeft">@id/txt_place_name</item>
+        <item name="android:layout_below">@id/txt_place_name</item>
+    </style>
+    
+    <style name="place_distance" parent="item_wrap_content">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignBottom">@id/img_place_photo</item>
+    </style>
+    
+    <style name="place_rating_bar" parent="android:Widget.DeviceDefault.RatingBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBottom">@id/img_place_photo</item>
+        <item name="android:layout_alignLeft">@id/txt_place_name</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
     </style>
 
 </resources>
